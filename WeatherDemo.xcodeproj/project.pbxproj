@@ -18,6 +18,8 @@
 		A429BE49173DEA1200619D5B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A429BE48173DEA1200619D5B /* Default-568h@2x.png */; };
 		A429BE4C173DEA1200619D5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A429BE4B173DEA1200619D5B /* ViewController.m */; };
 		A429BE4F173DEA1200619D5B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A429BE4D173DEA1200619D5B /* ViewController.xib */; };
+		A429BE56173DFD2D00619D5B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A429BE55173DFD2C00619D5B /* CoreLocation.framework */; };
+		A429BE59173DFE1B00619D5B /* WeatherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A429BE58173DFE1B00619D5B /* WeatherObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		A429BE4A173DEA1200619D5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A429BE4B173DEA1200619D5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A429BE4E173DEA1200619D5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A429BE55173DFD2C00619D5B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A429BE57173DFE1B00619D5B /* WeatherObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherObject.h; sourceTree = "<group>"; };
+		A429BE58173DFE1B00619D5B /* WeatherObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A429BE56173DFD2D00619D5B /* CoreLocation.framework in Frameworks */,
 				A429BE33173DEA1200619D5B /* UIKit.framework in Frameworks */,
 				A429BE35173DEA1200619D5B /* Foundation.framework in Frameworks */,
 				A429BE37173DEA1200619D5B /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +79,7 @@
 		A429BE31173DEA1200619D5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A429BE55173DFD2C00619D5B /* CoreLocation.framework */,
 				A429BE32173DEA1200619D5B /* UIKit.framework */,
 				A429BE34173DEA1200619D5B /* Foundation.framework */,
 				A429BE36173DEA1200619D5B /* CoreGraphics.framework */,
@@ -85,6 +92,8 @@
 			children = (
 				A429BE41173DEA1200619D5B /* AppDelegate.h */,
 				A429BE42173DEA1200619D5B /* AppDelegate.m */,
+				A429BE57173DFE1B00619D5B /* WeatherObject.h */,
+				A429BE58173DFE1B00619D5B /* WeatherObject.m */,
 				A429BE4A173DEA1200619D5B /* ViewController.h */,
 				A429BE4B173DEA1200619D5B /* ViewController.m */,
 				A429BE4D173DEA1200619D5B /* ViewController.xib */,
@@ -176,6 +185,7 @@
 				A429BE3F173DEA1200619D5B /* main.m in Sources */,
 				A429BE43173DEA1200619D5B /* AppDelegate.m in Sources */,
 				A429BE4C173DEA1200619D5B /* ViewController.m in Sources */,
+				A429BE59173DFE1B00619D5B /* WeatherObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
